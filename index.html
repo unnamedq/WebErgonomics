@@ -1,5 +1,8 @@
 <html>
 	<head>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/filters.js"></script>
 		<div style="color:red;background:yellow;margin:0,5%;margin-bottom:0px;">
 			<h1 style="text-align:center">hello</h1>
 		</div>
@@ -17,8 +20,38 @@
 			color: blue;
 			cursor: pointer;
 		}
+		
+		.spoiler{
+			width: 250pt;
+		}
+		.spoiler .title{
+		}
+			
+		.spoiler .big-desc{
+			/*display: none;*/	
+		}
+		img{
+		width:300px;height:200px;
+		display: none;
+		}
+		
 	</style>
 	<body>
+	<table>
+			<tr>
+				<th><input type="checkbox" name="jpg" value="jpg"></th>
+				<th><input type="checkbox" name="gif" value="gif"></th>
+				<th><input type="checkbox" name="bmp" value="bmp"></th>
+				<th><input type="checkbox" name="png" value="png"></th>
+			</tr>
+			
+			<tr>
+				<th>jpg</th>
+				<th>gif</th>
+				<th>bmp</th>
+				<th>png</th>
+			</tr>
+	</table>
 	<div  style="width:19%;float:left;">
 	<aside>
 		<div class="ttt">
@@ -39,17 +72,59 @@
 	</aside>
 	</div>
 	<div style="width:80%;float: left;">
-		<div style="margin:5px;float:left;"><img src="khristianskie_kartinki_i_priroda_bmp-jpg-gif-wmf-t.bmp" style="width:300px;height:200px;"></div>
-		<div style="margin:5px;float:left;"><img src="khristianskie_kartinki_i_priroda_bmp-jpg-gif-wmf-t.bmp" style="width:300px;height:200px;"></div>
-		<div style="margin:5px;float:left;"><img src="khristianskie_kartinki_i_priroda_bmp-jpg-gif-wmf-t.bmp" style="width:300px;height:200px;"></div>
+		<div class="spoiler" style="margin:5px;float:left;">
+			<a class="title"> Картиночка </a>
+			<div></div>
+			<img class="big-desc" src="khristianskie_kartinki_i_priroda_bmp-jpg-gif-wmf-t.bmp" style="width:300px;height:200px;">
+		</div>
+		
+		<div class="spoiler" style="margin:5px;float:left;">
+			<a class="title"> Картиночка </a>
+			<div></div>
+			<img class="big-desc" src="khristianskie_kartinki_i_priroda_bmp-jpg-gif-wmf-t.bmp" style="width:300px;height:200px;">
+		</div>
+		
+		<div class="spoiler" style="margin:5px;float:left;">
+			<a class="title"> Картиночка </a>
+			<div></div>
+			<img class="big-desc" src="khristianskie_kartinki_i_priroda_bmp-jpg-gif-wmf-t.bmp" >
+		</div>
 	
-		<div style="margin:5px;float:left;"><img src="khristianskie_kartinki_i_priroda_bmp-jpg-gif-wmf-t.bmp" style="width:300px;height:200px;"></div>
-		<div style="margin:5px;float:left;"><img src="khristianskie_kartinki_i_priroda_bmp-jpg-gif-wmf-t.bmp" style="width:300px;height:200px;"></div>
-		<div style="margin:5px;float:left;"><img src="khristianskie_kartinki_i_priroda_bmp-jpg-gif-wmf-t.bmp" style="width:300px;height:200px;"></div>
+		<div class="spoiler" style="margin:5px;float:left;">
+			<a class="title"> Картиночка </a>
+			<div></div>
+			<img class="big-desc" src="75.png" >
+		</div>
+		
+		<div class="spoiler" style="margin:5px;float:left;">
+			<a class="title"> Картиночка </a>
+			<div></div>
+			<img class="big-desc" src="khristianskie_kartinki_i_priroda_bmp-jpg-gif-wmf-t.bmp" >
+		</div>
+		
+		<div class="spoiler" style="margin:5px;float:left;">
+			<a class="title"> Картиночка </a>
+			<div></div>
+			<img class="big-desc" src="khristianskie_kartinki_i_priroda_bmp-jpg-gif-wmf-t.bmp" style="width:300px;height:200px;">
+		</div>
 	
-		<div style="margin:5px;float:left;"><img src="khristianskie_kartinki_i_priroda_bmp-jpg-gif-wmf-t.bmp" style="width:300px;height:200px;"></div>
-		<div style="margin:5px;float:left;"><img src="khristianskie_kartinki_i_priroda_bmp-jpg-gif-wmf-t.bmp" style="width:300px;height:200px;"></div>
-		<div style="margin:5px;float:left;"><img src="khristianskie_kartinki_i_priroda_bmp-jpg-gif-wmf-t.bmp" style="width:300px;height:200px;"></div>
+		<div class="spoiler" style="margin:5px;float:left;">
+			<a class="title"> Картиночка </a>
+			<div></div>
+			<img class="big-desc" src="khristianskie_kartinki_i_priroda_bmp-jpg-gif-wmf-t.bmp" style="width:300px;height:200px;">
+		</div>
+		
+		<div class="spoiler" style="margin:5px;float:left;">
+			<a class="title"> Картиночка </a>
+			<div></div>
+			<img class="big-desc" src="khristianskie_kartinki_i_priroda_bmp-jpg-gif-wmf-t.bmp" style="width:300px;height:200px;">
+		</div>
+		
+		<div class="spoiler" style="margin:5px;float:left;">
+			<a class="title"> Картиночка </a>
+			<div></div>
+			<img class="big-desc" src="khristianskie_kartinki_i_priroda_bmp-jpg-gif-wmf-t.bmp" style="width:300px;height:200px;">
+		</div>
 	</div>
 </body>
 </html>
