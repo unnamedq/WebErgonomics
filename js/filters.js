@@ -28,7 +28,7 @@ $("input[type=checkbox]").click(function(){
 	});
 	
 	ext.forEach(function(ur){
-		ur.show();			
+		ur.show('500');			
 	});
 
 	});
